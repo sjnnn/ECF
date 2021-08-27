@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Auteur</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="10x10" href="log.PNG">
+    </head>
+    <body>
+        <div class="nav">
+            <a href ="index.html"><img src="log.PNG" alt="logo site"></a>
+        <ul>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="index.html">Se déconnecter</a></li>
+        </ul> 
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <div class="win">
+                <h1>Bonjour, X</h1>
+            </div>
+                <h2 class="participation">Participation au concours</h2>
+                <section class="formulairee">
+                    <form>
+                        <label for="choiceform">Catégorie</label>
+                        <br>
+                        <select name="formulaire" id="choiceform">
+                            <option value="">Défault</option>
+                            <option value="choice">Roman français</option>
+                            <option value="choice">Roman étranger</option>
+                            <option value="choice">Documentaire</option>
+                            <option value="choice">Biographie</option>
+                        </select>
+                        <br>
+                        <textarea placeholder="Faîtes une petite biographie de vous."></textarea>
+                        <br>
+                        <label class="labelmodif" for="choicejpg">Image de couverture</label>
+                        <br>
+                        <input class="inputmodif" type="file" accept=".jpg" id="choicejpg">
+                        <br>
+                        <label class="labelmodif" for="choicejpg">PDF de votre oeuvre (toutes les pages + synopsis) <a href="rules.html" target="_blank">Voir règlement</a></label>
+                        <br>
+                        <input class="inputmodif" type="file" accept=".pdf" id="choicepdf">
+                    </form>
+                    <button id="btn">Envoyer</button>
+                </section>
+
+
+        
+    
+
+
+    </body>
+    <script src="myjs.js">
+	</script>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Connexion</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="10x10" href="log.PNG">
+    </head>
+    <body>
+        <div class="nav">
+            <a href ="index.html"><img src="log.PNG" alt="logo site"></a>
+        <ul>
+            <li><a href="rules.html">Règlement</a></li>
+            <li><a href="histo.html">Historique</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a class="active" href="connexion.html">Connexion</a></li>
+        </ul> 
+    </div>
+
+        <section class="connec">
+        <div class="connexion">
+            
+        
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <br>
+                <input type="password" id="pass" name="password" placeholder="Mot de passe" minlength="5" required>
+                <br>
+
+
+        </div>
+            <div class="btnconnexion">
+                <button type="submit" id="btnco">Se connecter (juré)</button>
+                <button type="submit" id="btnco1">Se connecter (Auteur)</button>
+            </div>
+    </section>
+    <p class="forget">J'ai oublié mon mot de passe</p>
+
+
+    <!-- Ici c'est pour mettre des erreurs quand la persnne ne rentre pas les bonnes infos, 
+    puis en JS on utilisera match et str (plusieurs solutions) pour mettre des critères au MDP ou/et à l'username-->
+    
+    <!--        EXEMPLE en HTML
+         <section class="connec">
+            <form action="page d'accueil en etant connecté .html"> 
+        <div class="connexion">
+            
+        
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <br>
+                <input type="password" id="pass" name="password" placeholder="Mot de passe" minlength="5" required>
+                <br>
+
+
+        </div>
+            <div class="btnconnexion">
+                <button type="submit" id="btnco">Se connecter (juré)</button>
+                <button type="submit" id="btnco1">Se connecter (Auteur)</button>
+            </div>
+        </form>
+    </section>
+
+    -->
+
+    <!-- Je n'ai pas fait comme ça car j'ai utilisé la même chose pour inscription. -->
+
+    <!-- Pareil pour modifier le mot de passe une fois sur le profil -->
+           
+
+
+
+    </body>
+    <script src="myjs.js">
+	</script>
+</html>

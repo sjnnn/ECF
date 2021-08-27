@@ -1,0 +1,29 @@
+<?xml version"1.0" ecoding="UTF-8"?>
+
+<booklist>
+    <book category="Roman français">
+        <title lang="fr">Notre-Dame de Paris</title>
+        <author>Victor Hugo</author>
+        <years>1831</years>
+        <page>940</page>
+    </book>
+    <book categoy="Roman étranger">
+        <title lang="fr">Phénix</title>
+        <author>Henning Boëtius</author>
+        <years>2000</years>
+        <page>416</page>
+    </book>
+    <book category="documentaire">
+        <title lang="fr">Produire un documentaire</title>
+        <author>Matthieu Belghiti</author>
+        <years>2015</years>
+        <page>352</page>
+    </book>
+    <book category="biographie">
+        <title lang="fr">Marie-Antoinette</title>
+        <author>Stefan Zweig</author>
+        <years>1932</yars>
+        <page>639</page>
+    </book>
+</booklist>
+        
